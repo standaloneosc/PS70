@@ -1,10 +1,10 @@
 body {
-    font: 20px "Helvetica", sans-serif;
-    line-height: 1.8;
-    color: #FFFFFF;
-    background-color: #FFEBEF;
-    padding-top: 0px !important;
-  }
+  font: 20px "Helvetica", sans-serif;
+  line-height: 1.8;
+  color: #4F4F4F; /* Dark grey text */
+  background-color: #FFEBEF;
+  padding-top: 0px !important;
+}
 
 .textcontainer {
   padding: 2% 10%;
@@ -12,7 +12,7 @@ body {
 
 p {
   font-size: 16px;
-  color: #E0E0E0;
+  color: #4F4F4F; /* Dark grey text */
 }
 
 .margin {
@@ -20,12 +20,12 @@ p {
 }
 
 a {
-  color: #FFFFFF;
+  color: #4F4F4F; /* Dark grey links */
   text-decoration: none;
 }
 
 a:hover {
-  color: #CCCCCC;
+  color: #666666; /* Slightly lighter grey on hover */
 }
 
 .container-fluid {
@@ -44,10 +44,10 @@ nav {
   gap: 20px;
 }
 
-.nav-title{
+.nav-title {
   margin-left: 15px;
   margin-right: 15px;
-  color: #FFFFFF;
+  color: #4F4F4F; /* Dark grey text */
   font-weight: bold;
 }
 
@@ -56,7 +56,7 @@ nav {
   border-radius: 0px;
   padding: 10px 30px;
   background-color: #FFEBEF;
-  color: #FFFFFF;
+  color: #4F4F4F; /* Dark grey text */
   transition: 0.3s;
 }
 
@@ -71,7 +71,7 @@ nav {
   border-radius: 0px;
   padding: 10px 30px;
   background-color: #FFEBEF;
-  color: #FFFFFF;
+  color: #4F4F4F; /* Dark grey text */
   transition: 0.3s;
 }
 
@@ -97,14 +97,14 @@ nav {
 
 code {
   background-color: #FFC0CB;
-  color: #FFFFFF;
+  color: #4F4F4F; /* Dark grey text */
   font-family: 'Courier New', Courier, monospace;
   padding: 5px;
   border-radius: 0px;
 }
 
 .caption {
-  color: #AAAAAA;
+  color: #4F4F4F; /* Dark grey text */
   font-size: 16px;
   text-align: center;
   font-style: italic;
@@ -113,6 +113,6 @@ code {
 #aboutme {
   padding: 20px;
   background-color: #FFC0CB;
-  color: #FFFFFF;
+  color: #4F4F4F; /* Dark grey text */
   border: 2px solid #FFFFFF;
 }
